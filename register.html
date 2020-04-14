@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="static/login.css">
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+
+    <link rel="icon" type="image/png" href="static/imgs/favicon.png">
+    <link rel="apple-touch-icon" type="image/png" href="static/imgs/favicon.png" />
+
+    <title>Kp labs - Register </title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-items main-container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Kp Labs</h1>
+                    <p>invent impressions</p>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </nav>
+            <div class="for-mobile">
+                <ul>
+                    <li><a href="#"><img src="static/imgs/calendarWhitea.svg" alt="calendar icon"></a></li>
+                    <li><a href="#"><img src="static/imgs/taskWhite.svg" alt="pen icon"></a></li>
+                    <li><a href="#"><img src="static/imgs/notificationWhite.svg" alt="notification icon"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-left">
+                        <label for="uname">Username</label>
+                    </div>
+                    <div class="col-right">
+                        <input type="text" id="uname" name="username" placeholder="Your Username address..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-left">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="col-right">
+                        <input type="text" id="email" name="email" placeholder="Your Email address..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-left">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col-right">
+                        <input type="password" id="showpasswd" name="password" placeholder="Your Password...">
+                        <input type="checkbox" onclick="myFunction2()"><label class="showPass">Show Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-left">
+                        <label for="password">Confirm Password</label>
+                    </div>
+                    <div class="col-right">
+                        <input type="password" id="myInput" name="password" placeholder="Confirm Your Password...">
+                        <input type="checkbox" onclick="myFunction()"><label  class="showPass">Show Password</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+                <p>already have an account?  <a href="login.html"> Sign in </a>  to your account</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT FOR REVEALING THE PASSWORD -->
+    <script src="static/main.js"></script>
+</body>
+</html>
